@@ -9,7 +9,7 @@
 <body>
   <header>
     <div class="logo-container">
-      <img src="images/logo.png" alt="Uplift Digital Logo" class="logo" />
+      <img src="images/uplift-digital-logo.png" alt="Uplift Digital Logo" class="logo" />
     </div>
     <h1 class="site-title">Uplift Digital</h1>
   </header>
