@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uplift Digital</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Simple internal styling for demonstration purposes */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #4b6cb7;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav {
+      background-color: #3b5998;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    footer {
+      background-color: #4b6cb7;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="logo.png" alt="Uplift Digital Logo" />
+    </div>
+    <h1>Uplift Digital</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resources.html">Resources</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Welcome to Uplift Digital</h2>
+    <p>This is the main template. Each page can reuse this structure to maintain a cohesive layout and style.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Uplift Digital. All rights reserved.</p>
+    <p>Mental health matters. You're not alone.</p>
+  </footer>
+</body>
+</html>
 
