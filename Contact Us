@@ -1,2 +1,113 @@
-hello
+<!DOCTYPE html>
+<!-- This website template was created by: Group 5 -->
+<html lang="en">
+<head>
+	<title>Uplink Digital | Contact Us</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+<div id="container">
+
+	<header>
+		<a href="index.html"><img src="images/uplink-logo.png" alt="Uplink Digital logo"></a>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li> 
+			<li><a href="about.html">About</a></li> 
+			<li><a href="resources.html">Resources</a></li> 
+			<li><a href="stories.html">Athlete Stories</a></li> 
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<main>
+
+	<div id="contact">
+
+		<h2>Reach Out to Uplink Digital</h2>
+		<p>Whether you're an athlete seeking support or someone who wants to get involved, we’d love to hear from you.</p>
+
+		<h4 class="mobile tel-link"><a href="tel:8001234567">(800) 123-4567</a></h4>
+		<h4 class="tablet-desktop tel-num">(800) 123-4567</h4>
+		<h4>Email us: <a href="mailto:support@uplinkdigital.org" class="contact-email-link">support@uplinkdigital.org</a></h4>
+		<h4>Visit us at: 100 Wellness Way, New York, NY 10001</h4>
+
+		<iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" allowfullscreen class="map"></iframe>
+
+	</div>
+
+	<div id="form">
+
+		<h2>Send Us a Message</h2>
+
+		<form class="form-grid">
+			<fieldset>
+				<legend>Your Information</legend>
+				<label for="fName">First Name:</label>
+				<input type="text" name="fName" id="fName" required>
+
+				<label for="lName">Last Name:</label>
+				<input type="text" name="lName" id="lName" required>
+
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" required>
+
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone">
+			</fieldset>
+
+			<fieldset>
+				<legend>What Are You Looking For?</legend>
+				<p>I’d like support or info on:</p>
+
+				<label for="counseling"><input type="checkbox" name="interest" id="counseling" value="Counseling"> Counseling Services</label>
+
+				<label for="peer"><input type="checkbox" name="interest" id="peer" value="Peer Groups"> Peer Support Groups</label>
+
+				<label for="resources"><input type="checkbox" name="interest" id="resources" value="Resources"> Mental Health Resources</label>
+
+				<label for="volunteer"><input type="checkbox" name="interest" id="volunteer" value="Volunteer"> Volunteering</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>More Info</legend>
+
+				<label for="reference">How did you find us?</label>
+				<select name="reference" id="reference">
+					<option value="ad">Advertisement</option>
+					<option value="friend">Friend</option>
+					<option value="search">Search Engine</option>
+					<option value="social">Social Media</option>
+					<option value="other">Other</option>
+				</select>
+
+				<label for="questions">Anything else you'd like to share?</label>
+				<textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+			</fieldset>
+
+			<input type="submit" id="submit" value="Send Message" class="btn">
+		</form>
+	</div>
+
+	</main>
+
+	<footer>
+		<p>&copy; 2025 Uplink Digital. All Rights Reserved.</p>
+		<p><a href="mailto:support@uplinkdigital.org">support@uplinkdigital.org</a></p>
+	</footer>
+
+</div>
+
+</body>
+</html>
 
