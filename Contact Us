@@ -17,7 +17,7 @@
 <div id="container">
 
 	<header>
-		<a href="index.html"><img src="images/uplink-logo.png" alt="Uplink Digital logo"></a>
+		<a href="index.html"><img src="images/uplink-digital-logo.png" alt="Uplink Digital logo"></a>
 	</header>
 
 	<nav>
@@ -35,7 +35,7 @@
 	<div id="contact">
 
 		<h2>Reach Out to Uplink Digital</h2>
-		<p>Whether you're an athlete seeking support or someone who wants to get involved, we’d love to hear from you.</p>
+		<p>Whether you're someone navigating mental health challenges or simply looking for support, we're here for you and would love to connect.</p>
 
 		<h4 class="mobile tel-link"><a href="tel:8001234567">(800) 123-4567</a></h4>
 		<h4 class="tablet-desktop tel-num">(800) 123-4567</h4>
