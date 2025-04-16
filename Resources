@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources | Uplift Digital</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="images/uplift-digital-logo.jpg" alt="Uplift Digital Logo"></a>
+    </div>
+    <h1 class="site-title">Uplift Digital</h1>
+  </header>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Resources</h2>
+
+    <section>
+      <h3>Hotlines and Emergency Resources</h3>
+      <img src="images/hotlines-placeholder.jpg" alt="Hotlines and Emergency Resources Image">
+      <ul>
+        <li><strong>National Suicide Prevention Lifeline:</strong> 1-800-273-TALK (8255)</li>
+        <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+        <li><strong>Veterans Crisis Line:</strong> 988 (Press 1)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Therapy and Counseling Services</h3>
+      <img src="images/therapy-placeholder.jpg" alt="Therapy and Counseling Services Image">
+      <p>Explore directories and affordable therapy options:</p>
+      <ul>
+        <li><a href="https://www.psychologytoday.com" target="_blank">Psychology Today Therapist Finder</a></li>
+        <li><a href="https://www.betterhelp.com" target="_blank">BetterHelp</a></li>
+        <li><a href="https://openpathcollective.org" target="_blank">Open Path Collective</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Online Communities and Forums</h3>
+      <img src="images/forums-placeholder.jpg" alt="Online Communities and Forums Image">
+      <p>Connect with others who understand what you're going through:</p>
+      <ul>
+        <li><a href="https://www.reddit.com/r/mentalhealth/" target="_blank">Reddit Mental Health Community</a></li>
+        <li><a href="https://7cups.com" target="_blank">7 Cups of Tea</a></li>
+        <li><a href="https://healthunlocked.com" target="_blank">HealthUnlocked</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Educational Materials (Articles, Videos, PDFs)</h3>
+      <img src="images/educational-materials-placeholder.jpg" alt="Educational Materials Image">
+      <p>Learn more about mental health and wellness with these resources:</p>
+      <ul>
+        <li><a href="https://www.nami.org/Support-Education" target="_blank">NAMI Support & Education</a></li>
+        <li><a href="https://www.youtube.com/user/katiemoroney" target="_blank">Mental Health YouTube Series</a></li>
+        <li><a href="https://www.mentalhealth.gov" target="_blank">MentalHealth.gov - Educational Materials</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Mental health matters. You're not alone.</p>
+    <p>&copy; 2025 Uplift Digital. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 
