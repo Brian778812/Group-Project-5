@@ -4,76 +4,150 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resources | Uplift Digital</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <!-- Header Section -->
   <header>
     <div class="logo-container">
-      <a href="index.html"><img src="images/uplift-digital-logo.png" alt="Uplift Digital Logo"></a>
+      <a href="index.html"><img src="images/uplift-digital-logo.png" alt="Uplift Digital Logo" class="resource-image"></a>
     </div>
     <h1 class="site-title">Uplift Digital</h1>
   </header>
 
+  <!-- Navigation -->
   <nav>
     <ul class="nav-links">
       <li><a href="home.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="resources.html">Resources</a></li>
+      <li><a href="resources.html" class="active">Resources</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
+  <!-- Main Resource Content -->
   <main>
-    <h2>Resources</h2>
 
-    <section>
-      <h3>Hotlines and Emergency Resources</h3>
-      <img src="images/hotlines-placeholder.jpg" alt="Hotlines and Emergency Resources Image">
-      <ul>
-        <li><strong>National Suicide Prevention Lifeline:</strong> 1-800-273-TALK (8255)</li>
-        <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
-        <li><strong>Veterans Crisis Line:</strong> 988 (Press 1)</li>
-      </ul>
-    </section>
+    <!-- Page Title -->
+    <h2 class="page-heading">Mental Health Resource Center</h2>
 
-    <section>
-      <h3>Therapy and Counseling Services</h3>
-      <img src="images/therapy-placeholder.jpg" alt="Therapy and Counseling Services Image">
-      <p>Explore directories and affordable therapy options:</p>
-      <ul>
-        <li><a href="https://www.psychologytoday.com" target="_blank">Psychology Today Therapist Finder</a></li>
-        <li><a href="https://www.betterhelp.com" target="_blank">BetterHelp</a></li>
-        <li><a href="https://openpathcollective.org" target="_blank">Open Path Collective</a></li>
-      </ul>
-    </section>
+    <!-- Accordion Wrapper -->
+    <div class="accordion-container" role="tablist">
 
-    <section>
-      <h3>Online Communities and Forums</h3>
-      <img src="images/forums-placeholder.jpg" alt="Online Communities and Forums Image">
-      <p>Connect with others who understand what you're going through:</p>
-      <ul>
-        <li><a href="https://www.reddit.com/r/mentalhealth/" target="_blank">Reddit Mental Health Community</a></li>
-        <li><a href="https://7cups.com" target="_blank">7 Cups of Tea</a></li>
-        <li><a href="https://healthunlocked.com" target="_blank">HealthUnlocked</a></li>
-      </ul>
-    </section>
+      <!-- Hotlines Section -->
+      <section class="accordion" aria-labelledby="hotlines-heading">
+        <button class="accordion-header" id="hotlines-heading" aria-expanded="false" aria-controls="panel1">Hotlines & Emergency Resources</button>
+        <div class="accordion-panel" id="panel1" role="region" aria-labelledby="hotlines-heading">
+          <img src="images/hotlines-placeholder.jpg" alt="Hotlines support" class="resource-image">
+        <ul class="resource-list">
+			<li>
+			<span class="resource-label">National Suicide Prevention Lifeline:</span> 1-800-273-TALK (8255)
+			</li>
+			<li>
+			<span class="resource-label">Crisis Text Line:</span> Text HOME to 741741
+			</li>
+			<li>
+			<span class="resource-label">Veterans Crisis Line:</span> 1-800-273-8255 (Press 1)
+			</li>
+		</ul>
+        </div>
+      </section>
 
-    <section>
-      <h3>Educational Materials (Articles, Videos, PDFs)</h3>
-      <img src="images/educational-materials-placeholder.jpg" alt="Educational Materials Image">
-      <p>Learn more about mental health and wellness with these resources:</p>
-      <ul>
-        <li><a href="https://www.nami.org/Support-Education" target="_blank">NAMI Support & Education</a></li>
-        <li><a href="https://www.youtube.com/user/katiemoroney" target="_blank">Mental Health YouTube Series</a></li>
-        <li><a href="https://www.mentalhealth.gov" target="_blank">MentalHealth.gov - Educational Materials</a></li>
-      </ul>
-    </section>
+      <!-- Therapy Section -->
+      <section class="accordion" aria-labelledby="therapy-heading">
+        <button class="accordion-header" id="therapy-heading" aria-expanded="false" aria-controls="panel2">Therapy & Counseling Services</button>
+        <div class="accordion-panel" id="panel2" role="region" aria-labelledby="therapy-heading">
+          <img src="images/therapy-placeholder.jpg" alt="Therapy services" class="resource-image">
+        <ul class="resource-list">
+			<li>
+			<span class="resource-label">Psychology Today Therapist Finder:</span>
+			<a href="https://www.psychologytoday.com" target="_blank">Search for a therapist</a>
+			</li>
+			<li>
+			<span class="resource-label">BetterHelp:</span>
+			<a href="https://www.betterhelp.com" target="_blank">Start online therapy</a>
+			</li>
+			<li>
+			<span class="resource-label">Open Path Collective:</span>
+			<a href="https://openpathcollective.org" target="_blank">Find affordable therapy</a>
+			</li>
+		</ul>
+        </div>
+      </section>
+
+      <!-- Online Communities -->
+      <section class="accordion" aria-labelledby="forums-heading">
+        <button class="accordion-header" id="forums-heading" aria-expanded="false" aria-controls="panel3">Online Communities & Forums</button>
+        <div class="accordion-panel" id="panel3" role="region" aria-labelledby="forums-heading">
+          <img src="images/forums-placeholder.jpg" alt="Community support forums" class="resource-image">
+        <ul class="resource-list">
+			<li>
+			<span class="resource-label">Reddit Mental Health Community:</span>
+			<a href="https://www.reddit.com/r/mentalhealth/" target="_blank">Join the discussion</a>
+			</li>
+			<li>
+			<span class="resource-label">7 Cups of Tea:</span>
+			<a href="https://7cups.com" target="_blank">Talk to trained listeners</a>
+			</li>
+			<li>
+			<span class="resource-label">HealthUnlocked:</span>
+			<a href="https://healthunlocked.com" target="_blank">Find health communities</a>
+			</li>
+		</ul>
+        </div>
+      </section>
+
+      <!-- Educational Materials -->
+      <section class="accordion" aria-labelledby="education-heading">
+        <button class="accordion-header" id="education-heading" aria-expanded="false" aria-controls="panel4">Educational Materials</button>
+        <div class="accordion-panel" id="panel4" role="region" aria-labelledby="education-heading">
+          <img src="images/educational-materials-placeholder.png" alt="Educational resources" class="resource-image">
+		<ul class="resource-list">
+			<li>
+			<span class="resource-label">NAMI Support & Education:</span>
+			<a href="https://www.nami.org/Support-Education" target="_blank">Visit site</a>
+			</li>
+			<li>
+			<span class="resource-label">Mental Health YouTube Series:</span>
+			<a href="https://www.youtube.com/user/katiemoroney" target="_blank">Watch videos</a>
+			</li>
+			<li>
+			<span class="resource-label">MentalHealth.gov - Education:</span>
+			<a href="https://www.mentalhealth.gov" target="_blank">Learn more</a>
+			</li>
+		</ul>
+        </div>
+      </section>
+
+    </div>
   </main>
 
+  <!-- Footer Section -->
   <footer>
     <p>Mental health matters. You're not alone.</p>
     <p>&copy; 2025 Uplift Digital. All rights reserved.</p>
   </footer>
+
+  <!-- Accordion Script -->
+  <script>
+  const headers = document.querySelectorAll(".accordion-header");
+
+  headers.forEach(header => {
+    header.addEventListener("click", () => {
+      const panel = header.nextElementSibling;
+      const isOpen = header.getAttribute("aria-expanded") === "true";
+
+      // Close all panels
+      document.querySelectorAll(".accordion-header").forEach(h => h.setAttribute("aria-expanded", "false"));
+      document.querySelectorAll(".accordion-panel").forEach(p => p.style.maxHeight = null);
+
+      // Open clicked one if it wasn't already open
+      if (!isOpen) {
+        header.setAttribute("aria-expanded", "true");
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  });
+</script>
 </body>
 </html>
-
