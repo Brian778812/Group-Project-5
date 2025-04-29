@@ -57,6 +57,26 @@
 
 /* About Page style code */
 
+.about-list {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.about-image {
+  width: 150px;
+  height: auto;
+}
+
+main p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+h2, h3 {
+  margin-top: 2rem;
+}
+
 
 
 /* Contact Us Page style code */
