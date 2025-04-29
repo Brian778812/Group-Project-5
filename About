@@ -1,132 +1,62 @@
 <!DOCTYPE html>
+<!-- This website template was created by: Group 5 -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="css/styles.css">
-	<title>Forward Fitness Club</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Uplift Digital</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
-
 <body>
 
-	<div id="container">
+<!-- Header Section -->
+<header>
+  <div class="logo-container">
+    <a href="index.html"><img src="images/uplift-digital-logo.png" alt="Uplift Digital Logo" class="about-image"></a>
+  </div>
+  <h1 class="site-title">Uplift Digital</h1>
+</header>
 
-		<nav class="mobile-nav">
-			<div id="menu-links">
-				<a href="index.html">Home</a>
-				<a href="about.html">About Us</a>
-				<a href="classes.html">Classes</a>
-				<a href="nutrition.html">Nutrition</a>
-				<a href="contact.html">Contact Us</a>
-			</div>
-			<a class="menu-icon" onclick="hamburger()">
-				<div>&#9776;</div>
-			</a>
-		</nav>
+<!-- Navigation Bar -->
+<nav>
+  <ul class="nav-links">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
-		<header id="ffc-logo">
-			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"></a>
-		</header>
+<!-- Main Content Section -->
+<main>
+  <h2>About Uplift Digital</h2>
 
-		<nav class="tablet-desktop">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="classes.html">Classes</a></li>
-				<li><a href="nutrition.html">Nutrition</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
+  <p>Uplift Digital was founded with a simple but powerful goal: to make mental health support accessible to everyone, everywhere. We understand that mental wellness is a journey — and we're here to walk that path with you.</p>
 
-		<main>
+  <h3>Our Story</h3>
+  <p>Born from a passion for mental health advocacy, Uplift Digital brings together licensed professionals, supportive communities, and reliable resources all in one digital space. We believe that no one should ever feel alone when facing mental health challenges.</p>
 
-			<video controls poster="images/hero-image.jpg">
-				<source src="media/ffc_video.mp4" type="video/mp4">
-				<source src="media/ffc_video.webm" type="video/webm">
-				<track src="media/captions.vtt" kind="captions" srclang="en" label="Captions">
-				<track src="media/descriptions.vtt" kind="descriptions" srclang="en" label="English Descriptions">
-				<p>Your browser does not support the video element.</p>
-			</video>
+  <h3>What We Stand For</h3>
+  <ul class="about-list">
+    <li><strong>Accessibility:</strong> Mental health resources should be available to all, no matter where you are.</li>
+    <li><strong>Community:</strong> Healing is stronger when shared with others who understand and support you.</li>
+    <li><strong>Empowerment:</strong> We aim to equip individuals with tools and knowledge to take control of their mental health journey.</li>
+    <li><strong>Confidentiality:</strong> We respect your privacy and provide safe, secure ways to seek help and support.</li>
+  </ul>
 
-			<section id="weights">
-				<h1>Weights</h1>
-				<img src="images/people-with-weights.jpg" alt="Two people working out with a weight in each hand" class="round">
-				<p>Our facility includes a weight training area with several weight options. Build lean muscle with weights and improve your core with weight training.</p>
-				<ul class="tablet-desktop">
-					<li>Dumbbells</li>
-					<li>Kettle bells</li>
-					<li>Barbells</li>
-				</ul>
-			</section>
+  <h3>Meet Our Team</h3>
+  <p>Our network includes experienced therapists, counselors, peer supporters, and mental health advocates — all united by a shared mission to uplift others.</p>
 
-			<section id="cardio">
-				<h1>Cardio</h1>
-				<img class="equip round" src="images/people-workingout-machines.jpg" alt="Cardio Equipment">
-				<p>Burn fat through cardio workout. Experts recommend 150 minutes of cardio each week. We have several equipment choices for your workout.</p>
-				<ul class="tablet-desktop">
-					<li>Treadmills</li>
-					<li>Elliptical Machines</li>
-					<li>Exercise Bikes</li>
-				</ul>
-			</section>
+  <p><strong>At Uplift Digital, you are never alone. Your journey matters. Your story matters.</strong></p>
 
-			<section id="training">
-				<h1>Personal Training</h1>
-				<img class="equip round" src="images/personal-trainer.jpg" alt="Personal Training">
-				<p>Our certified personal trainers work with you to help you obtain your fitness goals and track your progress. Personal Training has many benefits.</p>
-				<ul class="tablet-desktop">
-					<li>Accountability</li>
-					<li>Personalized Program</li>
-					<li>Consistent Support and Motivation</li>
-				</ul>
-			</section>
+</main>
 
-			<section id="exercises" class="tablet-desktop">
-				<h1>Common Exercises</h1>
-				<p>The following are common exercises that we encourage our clients to do as a part of their daily exercise routine</p>
-				<dl>
-					<dt>Burpee</dt>
-					<dd>Burpees are great full-body exercise to increase your strength and endurance. Begin in a standing position, drop into a squat and extend your hands forward, kick your feet back and then forward again quickly, and then jump up from a squatted position. <span class="viewex" onclick="burpees()"> View Example.</span></dd>
-					
-					<dt>Plank</dt>
-					<dd>Planks build your core strength. To perform a plank, get in a push-up position and rest your forearms on the floor. Hold the position as long as you can. <span class="viewex" onclick="plank()"> View Example.</span></dd>
-					
-					<dt>Mountain Climber</dt>
-					<dd>Mountain climbers are a good cardio exercise. Place your hands on the floor in a push-up position, bring one knee up to your chest, and then switch as quickly as you can (as though you are climbing a mountain). <span class="viewex" onclick="mountain()"> View Example.</span></dd>
-				</dl>
+<!-- Footer Section -->
+<footer>
+  <p>Mental health matters. You're not alone.</p>
+  <p>&copy; 2025 Uplift Digital. All rights reserved.</p>
+</footer>
 
-				<video controls id="example">
-					<source id="vid-src" src="vid" type="video/mp4">
-					<track id="despsrc" src="des" kind="descriptions" srclang="en" label="English Descriptions">
-					<p>Your browser does not support the video element.</p>
-				</video>
-
-				<p>For more information about how to stay active, visit the <a href="https://www.hhs.gov/fitness/be-active/index.html" target="_blank" class="external-link">U.S. Department of Health and Human Services</a>.</p>
-			</section>
-		
-		</main>
-
-		<footer>
-			<p>&copy; Copyright 2025. All Rights Reserved.</p>
-			<p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>		
-		</footer>
-
-	</div>
-
-	<script>
-		function hamburger() {
-			var menu = document.getElementById("menu-links");
-			if (menu.style.display === "block") {
-				menu.style.display = "none";
-			} else {
-				menu.style.display = "block";
-			}
-		}
-	</script>
 </body>
 </html>
