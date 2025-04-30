@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- This website template was created by: Group 5 -->
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -10,7 +11,7 @@
   <!-- Header Section -->
   <header>
     <div class="logo-container">
-      <a href="index.html"><img src="images/uplift-digital-logo.png" alt="Uplift Digital Logo" class="resource-image"></a>
+      <a href="index.html"><img src="images/uplift-digital-logo.png" alt="Uplift Digital Logo"></a>
     </div>
     <h1 class="site-title">Uplift Digital</h1>
   </header>
