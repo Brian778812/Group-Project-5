@@ -118,12 +118,6 @@ header {
   font-weight: 700;
 }
 
-/* Logo */
-header img {
-  height: 60px;
-  border-radius: 8px;
-}
-
 /* Navigation Bar */
 nav {
   background-color: #3b5998;
